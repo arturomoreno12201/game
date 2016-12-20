@@ -75,11 +75,10 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>E:\game\MathLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalUsingDirectories>C:\Users\7319a\Documents\Visual Studio 2015\Projects\Game\MathLib;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>E:\game\MathLib;E:\game\dep</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>E:\game\MathLib;E:\game\dep;$(SolutionDir)dep\sfw\$(Configuration);$(SolutionDir)$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>MathLib.lib;sfw.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
